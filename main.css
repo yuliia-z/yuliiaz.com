@@ -59,4 +59,8 @@ a {
         flex-direction: column-reverse;
         text-align: center;
     }
+
+    .info {
+        width: 70%;
+    }
 }
