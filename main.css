@@ -1,0 +1,62 @@
+html {
+    display: table;
+    margin: auto;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: #fcfcfc;
+    font-family: "Lucida Console", Monaco, monospace;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+p {
+    color: grey;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.info {
+    width: 40%;
+}
+
+.fa-linkedin:hover {
+    color: #0077b5;
+}
+
+.fa-github-square:hover {
+    color: #24292e;
+}
+
+.fa-medium:hover {
+    color: #292929;
+}
+
+.fa-envelope:hover {
+    color: #d93025;
+}
+
+@media (max-width: 900px) {
+    .container {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+}
